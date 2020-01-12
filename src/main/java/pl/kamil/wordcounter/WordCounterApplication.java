@@ -21,9 +21,6 @@ public class WordCounterApplication {
         WordCounter wordCounter = new WordCounter();
         wordCounter.processLines(lines);
         wordCounter.getMostPopular(10).stream().forEach(System.out::println);
-
-//        System.out.println("------ONLY ONE----------------");
-//        wordCounter.getWithNumberOfOccurances(1).stream().forEach(System.out::println);
     }
 
 }
